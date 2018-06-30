@@ -1,24 +1,27 @@
 # README
+This's my rails girls application.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Setup
+Make sure you have Ruby and Rails installed.
 
-Things you may want to cover:
+Run in your terminal
+```
+git clone git@github.com:Maddalenap/railsgirls.git
 
-* Ruby version
+cd railsgirls
 
-* System dependencies
+bundle install
 
-* Configuration
+rails db:migrate
+```
+And run with
 
-* Database creation
+```
+rails server
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can also use for debugging
+```
+rails console 
+rails routes
+```
