@@ -16,6 +16,8 @@ end
 #photo file upload
 gem 'carrierwave'
 
+#imagemagic
+gem 'mini_magick', '4.8.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
