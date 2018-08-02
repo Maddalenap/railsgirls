@@ -5,6 +5,7 @@ class PictureUploader < CarrierWave::Uploader::Base
 
   version :thumb do
   process :resize_to_fill => [50, 50]
+end
 
   # Choose what kind of storage to use for this uploader:
   storage :file
