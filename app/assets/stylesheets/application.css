@@ -18,14 +18,22 @@
 
  table, td, th { vertical-align: middle; border: none; }
  th { border-bottom: 1px solid #DDD; }
- h1 {color: violet;}
+ h1 {color: #815476;}
 
  .navbar {
   min-height: 38px;
-  background-color: #8c4356;
+  background-color: white;
 }
 
+
+/*.navbar a.brand { font-size: 30px; }
+.navbar a.brand:hover {
+ color: blue;
+ background-color: pink;
+ text-decoration: none;
+}*/
+
 footer {
-  background-color: #f3f9f1;
+  background-color: #e9e7ef;
   padding: 20px 0;
 }
